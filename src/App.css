@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* in your CSS file (tailwind.css or any other CSS file you are using) */
+@layer utilities {
+  .container{
+    background: linear-gradient(180.09deg, rgba(102, 102, 102, 0) 0.08%, rgba(99, 99, 99, 0.0136667) 3.49%, rgba(0, 0, 0, 0.4) 84.38%);
+  }
+}
+.container {
+  background:blue
+}
+
+
